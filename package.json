@@ -8,7 +8,10 @@
   "main": "index.js",
   "dependencies": {},
   "scripts": {
-    "version": "lerna version --no-push --conventional-commits"
+    "release-check": "lerna version --no-push --conventional-commits",
+    "clean": "lerna clean -y",
+    "bootstrap": "lerna bootstrap",
+    "test": "npm run test"
   },
   "keywords": [],
   "author": "",

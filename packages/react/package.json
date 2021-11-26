@@ -32,7 +32,9 @@
     "react-dom": "^17.0.2",
     "typescript": "^3.3.4000"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@jetchy/core": "^0.0.1"
+  },
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
